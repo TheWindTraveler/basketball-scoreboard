@@ -1,0 +1,11 @@
+:root{
+    --color: #eeeeee;
+    --scorecard-color: #f94f6d;
+    --background-color: #4d5470;
+    --scorecard-background: black;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--color);
+}
