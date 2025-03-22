@@ -79,6 +79,13 @@ body{
     font-size: 20px;
     border-radius: 5px;
     font-family: 'Cursed Timer';
+    cursor: pointer;
+}
+
+.home-add-1:hover,
+.home-add-2:hover,
+.home-add-3:hover{
+    background-color: var(--border-color);
 }
 
 
@@ -116,4 +123,11 @@ body{
     font-size: 20px;
     border-radius: 5px;
     font-family: 'Cursed Timer';
+    cursor: pointer;
+}
+
+.away-add-1:hover,
+.away-add-2:hover,
+.away-add-3:hover{
+    background-color: var(--border-color);
 }
