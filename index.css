@@ -2,8 +2,9 @@
 :root{
     --color: #eeeeee;
     --scorecard-color: #f94f6d;
-    --background-color: #4d5470;
+    --background-color: #1B244A;
     --scorecard-background: black;
+    --border-color: #9AABD8;
 }
 
 /* Fonts */
@@ -21,4 +22,98 @@ body{
     font-family: "Verdana";
     background-color: var(--background-color);
     color: var(--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+/* Overall container */
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Home overall section container */
+.home-score-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%;
+    max-width: 250px; */
+}
+
+.score-heading{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px 0 5px 0;
+}
+
+#home-score{
+    background-color: var(--scorecard-background);
+    margin: 10px 0 20px 0;
+    font-family: 'Cursed Timer';
+    color: var(--scorecard-color);
+    font-size: 90px;
+    font-weight: 400;
+    width: 112px;
+    border-radius: 5px;
+    padding: 40px 30px 30px 30px;
+    text-align: center;
+}
+
+#home-score-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 40%; */
+}
+
+.home-add-1, .home-add-2, .home-add-3{
+    margin: 7px;
+    border: 2px solid var(--border-color);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer';
+}
+
+
+/* Away overall section container */
+.away-score-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#away-score{
+    background-color: var(--scorecard-background);
+    margin: 10px 0 20px 0;
+    font-family: 'Cursed Timer';
+    color: var(--scorecard-color);
+    font-size: 90px;
+    font-weight: 400;
+    width: 112px;
+    border-radius: 5px;
+    padding: 40px 30px 30px 30px;
+    text-align: center;
+}
+
+#away-score-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.away-add-1, .away-add-2, .away-add-3{
+    margin: 7px;
+    border: 2px solid var(--border-color);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer';
 }
