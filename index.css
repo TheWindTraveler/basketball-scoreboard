@@ -1,3 +1,4 @@
+/* Styles Variables */
 :root{
     --color: #eeeeee;
     --scorecard-color: #f94f6d;
@@ -5,7 +6,19 @@
     --scorecard-background: black;
 }
 
+/* Fonts */
+@font-face {
+    font-family: 'Cursed Timer';
+    src: url('./assets/fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Overall Body */
 body{
+    margin: 0;
+    padding: 0;
+    font-family: "Verdana";
     background-color: var(--background-color);
     color: var(--color);
 }
