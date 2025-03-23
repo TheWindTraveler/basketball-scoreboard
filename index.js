@@ -2,4 +2,4 @@
 let homeScore = document.getElementById("home-score");
 
 // Reusable variable
-let homeScoreCount1 = 0;
+let homeScoreCount = 0;
